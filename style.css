@@ -1,7 +1,7 @@
-
 body {
     margin: 0;
     align-items:center;
+    font-family: "Amazon Ember", Arial, sans-serif;
 }
 .header1 {
     height: 36px;
@@ -60,6 +60,8 @@ body {
 .all-btn {
   border-radius: 4px 0px 0px 4px ;
   font-family:Monospace;
+  font-size: 11px;
+  padding-left: 5px;
   background-color: #e4e4e4 ;
   width: 48px;
   height: 38px;
@@ -70,7 +72,7 @@ body {
 .Search-input {
   margin: 0;
   padding: 0;
-  width: 730px;
+  width: 785px;
   border-radius: 0;
   border: none;
   font-size: 15px;
@@ -171,7 +173,7 @@ nav a {
     width: 100%;
 }
 .add p {
-    margin: 0 230px;
+    margin: 0 20px;
 }
 .add a {
     text-decoration: none;
@@ -254,6 +256,7 @@ main {
 .specs {
     display: flex;
     flex-direction: column;
+    font-size: 22px;
 }
 
 .rating {
@@ -287,23 +290,65 @@ main {
 .camera-dtl {
     display: flex;
     flex-direction: column;
+    font-size: 15px;
     list-style: none;
     gap: 8px;
 }
+.set {
+    padding-top: 8px;
+    color: #545757;
+}
 .camera-price {
-    font-size: 28px;
-    margin-left: 10px;
+    font-size: 30px;
+    margin: 0;
+}
+.About-this-item{
+    font-size: 15px;
 }
 
 
-.shopping {
+hr{
+    border:none;
+    border-top:1px solid #ddd;
+    margin:15px 0;
+}
+
+
+
+.available-prod {
+    display: flex;
+    align-items: flex-start;
+    font-size: 15px;
+    gap: 15px;
+}
+.avail-info {
     display: flex;
     flex-direction: column;
-    width: 1200px;
-    height: 680px;
+}
+.avail-price {
+    display: flex;
+    gap: 4px;
+    margin-top: 10px;
+    align-items: center;
+}
+.avail-main-price {
+    color: #c10015;
+}
+
+.avail-ship-price {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     border-radius: 6px;
+    color: #545757;
 }
+.avail-works {
+    color: #545757;
+    width: 600px;
+    margin-top: 0;
+}
+
+
 
 .add-to-cart {
     background-color: #ffd815;
@@ -336,46 +381,69 @@ main {
     padding-right: 150px;
 }
 
-.others {
-    margin-top:0;
-    width: 225px;
-    padding-top: 6px;
-}
 
-.similar{
+.products {
+    padding-left: 10px;
     display: flex;
-    gap: 15px;
-    
-    cursor: pointer;
+    gap: 20px;
 }
-.similar img{
+.card {
+    width: 220px;
+}
+.card img {
+    width: 100%;
+}
+.card a {
+    text-decoration: none;
+    color: #2162a0;
+    font-size: 18px;
+}
+.price {
+    color: #000000;
+    font-size: 22px;
+}
+
+
+.Customers-viewd,.brand,.prod-desc {
+    padding-left: 20px;
+}
+.empty-star {
+  position: relative;
+  display: inline-block;
+  color: lightgray;
+}
+.brand-catagory {
     display: flex;
-    flex-direction: column;
-    width: 120px;
-    height: 120px;
-  
+    margin-top: 30px;
+    background-color: #f9f9f9;
 }
-.product{
-    padding:15px 0;
+.big-img img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
 }
-
-.product img{
-    width:180px;
-    display:block;
-    margin-bottom:10px;
+.three-imgs {
+    display: flex;
+    gap: 10px;
 }
-
-.product a{
-    display:block;
-    color:#2162a0;
-    text-decoration:none;
-    width:180px;
+.c-card {
+    width: 180px;
+    border: 1px solid #ddd;
+    padding: 10px;
 }
-
-hr{
-    border:none;
-    border-top:1px solid #ddd;
-    margin:15px 0;
+.c-card img {
+    width: 100%;
+}
+.c-card p {
+    font-size: 16px;
 }
 
+.pdf-guide {
+    font-size: 15px;
+    padding-left: 10px;
+}
 
+.Product-Description{
+    font-size: 14px;
+    color: #333333;
+}
